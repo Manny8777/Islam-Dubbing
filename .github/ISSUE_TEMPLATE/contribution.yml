@@ -1,0 +1,21 @@
+name: Contribution proposal
+description: Propose how you would like to participate in Studio development.
+title: "[Contribution]: "
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for offering to help. Download access is handled separately at https://deendub.com/#/local-studio."
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you like to contribute?
+      description: Describe the feature, translation, documentation, testing or other help you propose.
+    validations:
+      required: true
+  - type: textarea
+    id: approach
+    attributes:
+      label: How would you approach it?
+      description: Tell us about your plan or relevant experience. A short explanation is fine.
+    validations:
+      required: true

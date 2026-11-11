@@ -1,0 +1,17 @@
+name: Bug report
+description: Report a reproducible problem in an approved Studio download.
+title: "[Bug]: "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Studio version and operating system
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Include the steps, expected result and error message. Remove API keys and private information.
+    validations:
+      required: true
